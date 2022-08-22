@@ -876,11 +876,27 @@ nav a:hover::before {
 	font-size: 15px;
 }
 
+.fourth-content .title {
+	display: none;
+}
 
 
 /* REPONSIVE */
 
 @media (max-width: 991px) {
+
+	.fourth-content .title {
+		display: block;
+		color: white;
+		border-bottom: 1px solid;
+	}
+
+	.fourth-content .item .hover-effect {
+		opacity: 1;
+		visibility: visible;
+		background-color: #000000b5;
+	}
+
 
 	.price {
 		height: auto;
