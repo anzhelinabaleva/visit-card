@@ -880,10 +880,21 @@ nav a:hover::before {
 	display: none;
 }
 
+.fancybox-pdf.diplomy-download {
+	display: none !important;
+}
 
 /* REPONSIVE */
 
 @media (max-width: 991px) {
+	.fancybox-pdf.diplomy-download {
+		display: inline-block !important;
+		margin-left: 0 !important;
+	}
+
+	.fancybox-pdf.open-pdf {
+		display: none !important;
+	}
 
 	.fourth-content .title {
 		display: block;
