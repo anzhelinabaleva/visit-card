@@ -329,6 +329,23 @@ nav a:hover::before {
 	color: white;
 }
 
+p, li {
+	font-size: 16px;
+}
+
+.divider {
+	margin: 20px 0;
+	border: 1px solid #c0bfbf;
+}
+
+.guides-info {
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #000000cf;
+}
+
 .proof p {
 	font-size: 12px;
 }
