@@ -290,10 +290,10 @@ nav a:hover::before {
   overflow-y: scroll;
   position: relative;
   width: 70%;
-  height: 88%;
+  height: 88vh;
   left: 30%;
   top: 1%;
-  bottom: 1%;
+  bottom: 11%;
   background: rgba(0, 0, 0, 0.5);
 }
 .content::-webkit-scrollbar {
